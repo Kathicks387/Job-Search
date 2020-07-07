@@ -78,16 +78,11 @@ button {
     background: #283555;
     color: white;
     width: 100%;
-<<<<<<< HEAD
 
 }
 
 .pagination {
-    background-color: white;
-    color: darkblue;
-=======
     height: 20px;
-    margin-left: -15px;
+    margin-left: 15px;
     margin-right: -15px;
->>>>>>> 4250ecf54419428eacd1559c5424406050e35107
 }
