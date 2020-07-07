@@ -5,10 +5,24 @@ Light Blue: #4c638c
 
 body {}
 
+
+.top-bar {
+    background: #283555;
+    height: 65px;
+}
+
+.top-bar img {
+    width: 170px;
+    z-index: 999;
+    position: relative;
+    margin-top: 30px;
+}
+
 header img {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    object-position: center;
 }
 
 .h1-box{
@@ -36,14 +50,14 @@ header h1 {
 
 
 #job-search {
-    margin-top: -25px;
-    margin-left: -20px;
+    margin-top: -17px;
 }
 
 form .input-field {
     background: white;
     margin: 0px;
     margin-right: 10px;
+    padding: 0px;
 }
 
   /* label focus color */
@@ -57,23 +71,23 @@ form .input-field {
   }
 
 
-form .submit-field {
-    position: relative;
-    background: #283555;
-    
-    margin-right: -20px;
-}
+
 
 button {
     border: none;
     background: #283555;
     color: white;
-    height: 45px;
     width: 100%;
+<<<<<<< HEAD
 
 }
 
 .pagination {
     background-color: white;
     color: darkblue;
+=======
+    height: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+>>>>>>> 4250ecf54419428eacd1559c5424406050e35107
 }
