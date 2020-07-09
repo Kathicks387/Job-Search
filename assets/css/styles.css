@@ -18,6 +18,11 @@ body {}
     margin-top: 30px;
 }
 
+.top-bar-right p {
+    color: white;
+    padding: 60px 0px 10px 10px;
+}
+
 header img {
     width: 100%;
     height: 300px;
@@ -80,6 +85,18 @@ button {
     width: 100%;
 
 }
+
+
+.job-name {
+    background: red;
+    color: white;
+}
+
+.company-name {
+
+}
+
+
 
 .pagination {
     height: 20px;
