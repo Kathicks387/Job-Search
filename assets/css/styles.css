@@ -148,6 +148,11 @@ form .submit-field {
 
 }
 
+.job-link:hover {
+    background:#283555;
+    color: white;
+}
+
 
 
 
@@ -155,9 +160,22 @@ footer {
     width: 100%;
     margin: auto;
   }
+
+.APIs {
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+footer .bottom-bar a {
+    text-align: center;
+    color: white;
+    margin: auto;
+}
   
-  .bottom-bar {
-      height: 300px;
+.bottom-bar {
+      height: 340px;
       background-color: #283555;
       color: white;
       margin-bottom: 0px;
