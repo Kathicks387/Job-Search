@@ -37,23 +37,43 @@ header img {
 .box{
     position: relative;
     display: inline-block; 
+   
 }
-.box h1{
+.box h1 {
+    font-family: 'Oswald', sans-serif;
     position: absolute;
+    left: 0;
+    right: 0;   
     z-index: 999;
     margin: 0 auto;
-    left: 0;
-    right: 0;        
-    text-align: center;
-    top: 50px; 
-    background: #283555;
+    height: 70px;
     color: #fff;
-    width: 90%;
-    max-width: 650px;
-    height: 50px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
+    text-align: center;
+    
 }
+
+.box .lightblue {
+    z-index: 998;
+    top: 50px; 
+    right: 150px;
+    background: #4c638c;
+    font-weight: 300;
+    width: 70%;
+    max-width: 550px;
+}
+
+
+.box .darkblue{
+    z-index: 999;
+    top: 115px; 
+    left: 130px;
+    background: #283555;
+    font-weight: 600;
+    width: 85%;
+    max-width: 600px;
+}
+
+
 
 
 header h1 {
@@ -180,11 +200,6 @@ footer {
 
 ​
 
-
-
-
-
-
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -193,6 +208,76 @@ footer {
     margin-right: 0px;
     margin-left: 0px;
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .box h1 {
+        left: 0;
+        right: 0;   
+        height: 40px;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    
+    .box .lightblue {
+        z-index: 998;
+        top: 70px; 
+        right: 50px;
+        background: #4c638c;
+        font-weight: 300;
+        width: 70%;
+        max-width: 300px;
+    }
+    
+    
+    .box .darkblue{
+        z-index: 999;
+        top: 105px; 
+        left: 50px;
+        background: #283555;
+        font-weight: 600;
+        width: 90%;
+        max-width: 320px;
+    }
+    
+
+
+    
+    #job-search {
+        margin-top: -17px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    
+    form .input-field {
+        background: white;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    
+    form .submit-field {
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+
+
+
+}
+
+
+
+
+
 
 
 
@@ -218,27 +303,6 @@ footer {
     }
     
     .br {display: block;}
-
-
-
-    #job-search {
-        margin-top: -17px;
-        margin-left: 10px;
-        margin-right: 10px;
-        
-    }
-    
-    form .input-field {
-        background: white;
-        margin-right: 0px;
-        padding: 0px;
-    }
-    
-    form .submit-field {
-        margin-right: 0px;
-        padding: 0px;
-    }
-
 
     
     footer {
