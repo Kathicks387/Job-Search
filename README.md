@@ -5,4 +5,4 @@ Users are able to enter desired job they are looking for and location into our s
 <br>
 Github link: https://github.com/Kathicks387/Job-Search
 <br>
-Site link:
+Site link: https://kathicks387.github.io/Job-Search/
