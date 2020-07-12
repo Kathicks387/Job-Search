@@ -7,8 +7,8 @@ Github link: https://github.com/Kathicks387/Job-Search
 <br>
 Site link: https://kathicks387.github.io/Job-Search/
 <br>
-Preview: ![Job-Search](Screenshot1.png)
+Preview: ![Job-Search](assets/Screenshot1.png)
 <br>
-Preview: ![Job-Search](Screenshot2.png)
+Preview: ![Job-Search](assets/Screenshot2.png)
 <br>
-Preview: ![Job-Search](Screenshot3.png)
+Preview: ![Job-Search](assets/Screenshot3.png)
